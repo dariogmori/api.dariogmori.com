@@ -26,7 +26,7 @@ public class SecurityConfig {
         // Configure CORS settings here
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOriginPatterns(List.of("https://dariogmori.com","https://orion-nova-2.resiz.es"));
+        config.setAllowedOriginPatterns(List.of("https://dariogmori.com","https://orion-7x5.resiz.es"));
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", config);
